@@ -1,0 +1,30 @@
+{
+  "name": "hildegard",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "node": "7.4.0",
+    "npm": "4.0.5"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "angular": "^1.7.9",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakaspar/wakaspar.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wakaspar/wakaspar.github.io/issues"
+  },
+  "homepage": "https://github.com/wakaspar/wakaspar.github.io#readme"
+}

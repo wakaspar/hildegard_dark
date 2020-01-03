@@ -1,0 +1,176 @@
+/** NOTE: MAIN.CSS - CONTAINS MOST CSS FOR HILDE 2.0 **/
+/* Site-wide CSS */
+* {
+  margin: 0em;
+  color: #fffafa;
+}
+body {
+  background-color: #0d0d0d;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+img {
+  border: 2px solid #fffafa;
+}
+p {
+  font-size: 1.1rem;
+}
+.banner-img {
+  height: 25vh;
+  width: 100%;
+  object-fit: cover;
+}
+.first-letter {
+  font-size: 1.35em;
+  font-weight: bold;
+} /* augments size & weight of first letter of text */
+
+/** INDEX **/
+header {
+  padding: 0 5%;
+}
+/* Menu styles */
+#menu {
+  background: none;
+  border: none;
+  box-shadow: none;
+} /* removes default menu styling */
+#menu a {
+  color: #fffafa;
+}
+#menu a:hover {
+  color: #0d0d0d;
+  background-color: #fffafa;
+}
+.logo h1  {
+  font-family: 'Quicksand', cursive;
+  margin: 0em;
+  font-size: 2.5em;
+}
+.logo a p {
+  font-size: 1.25em;
+  margin-top: -.25em;
+  margin-left: 2em;
+}
+footer {
+  text-align: center;
+  flex: 1;
+  padding-bottom: 1.5em;
+}
+
+/** HOME **/
+/* Contact buttons */
+button.huge.inverted:hover a,
+button.huge.inverted:active a,
+button.huge.inverted:hover i,
+button.huge.inverted:active i{
+  color: #0d0d0d;
+}
+button.ui a {
+  color: #fffafa;
+}
+button a img {
+  border: none;
+} /* removes border from pdf extension icon ONLY */
+div.caption a, a.prev, a.next {
+  color: #fffafa;
+} /* sets font color for carousel */
+div.column.four.wide {
+  display: block !important;
+  text-align: center !important;
+} /* straightens out contact buttons */
+/* Media queries */
+@media screen and (max-width: 991px) {
+  button.ui.huge.inverted a {
+    font-size: .8em;
+  }
+} /* shrink contact links on tablets */
+@media screen and (max-width: 767px) {
+  button.ui.huge.inverted a {
+    font-size: 1em;
+  }
+} /* expand contact links on phones */
+
+/** ABOUT **/
+/* Stack panel styles */
+.stack-panel {
+  margin-top: 2.5%;
+  text-align: center;
+}
+.stack-panel a {
+  display: inline-block !important;
+}
+.stack-panel i {
+  font-size: 3.5em;
+}
+.stack-panel i:hover,
+.stack-panel i:active {
+  background-color: #fffafa;
+  color: #0d0d0d;
+}
+.stack-panel a:hover i,
+.stack-panel a:active i {
+  background-color: #fffafa;
+  color: #0d0d0d;
+}
+
+/** PORTFOLIO **/
+/* Button styles */
+a.mobile.blue.inverted.button i {
+  color: #3ac0ff !important;
+}
+a.mobile.inverted.button:hover,
+a.mobile.inverted.button:active,
+a.mobile.inverted.button:hover i,
+a.mobile.inverted.button:active i {
+  color: #0d0d0d !important;
+}
+/* Text styles */
+h3.p-name {
+  margin: 0 !important;
+}
+.p-role {
+  margin: 0 0 3% 6% !important;
+} /* margin between role & details */
+.p-skill {
+  font-size: 1em;
+}
+/* Glyph styles */
+.glyphs {
+  font-size: 2em;
+}
+.glyphs i {
+  line-height: 1.25;
+  padding: 0 5px;
+  display: inline-block;
+}
+/* Far-left column */
+ul.l-p-col > span,
+ul.l-p-col > p {
+  margin: 3% 0 3% 0 !important;
+} /* margin between glyphs & skills */
+ul.l-p-col > span > a {
+  margin: 0 1.5% 3% 0 !important;
+} /* margin between project buttons */
+
+/** SOCIAL **/
+/* Icon styles */
+i.massive.icon {
+  font-size: 12rem;
+}
+div.column.four.wide > a {
+  display: block;
+  text-align: center;
+} /* straightens out social buttons */
+/* Media queries */
+@media screen and (max-width: 991px) {
+  i.massive.icon {
+    font-size: 9rem;
+  }
+} /* shrink icons on tablet screens */
+@media screen and (max-width: 767px) {
+  i.massive.icon {
+    font-size: 12rem;
+  }
+} /* expand icons on phone screens */

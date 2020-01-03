@@ -1,0 +1,24 @@
+.icon {
+  cursor: pointer;
+  background-size: 200% auto;
+  transition: .8s;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.icon:hover {
+  background-position: right center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.github {
+  background-image: linear-gradient(-45deg, white 0%, slategrey 25%, snow 51%, slategrey 77%, white 100%);
+}
+.linkedin {
+  background-image: linear-gradient(-45deg, #2977b4 0%, #2C5594 25%, #3c8891 51%, #2C5594 77%, #2977b4 100%);
+}
+.instagram {
+  background-image: linear-gradient(45deg, #fbdb81 0%, #db4278 25%, #4963d3 51%, #db4278 77%, #fbdb81 100%);
+}
+.facebook {
+  background-image: linear-gradient(45deg, #414861 0%, #1D2861 25%, #4267b2 51%, #1D2861 77%, #414861 100%);
+}

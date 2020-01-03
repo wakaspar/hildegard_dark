@@ -1,0 +1,34 @@
+<!-- PROJECT PORTFOLIO -->
+<div class="ui container">
+  <h2 class="">Project Portfolio</h2>
+  <div class=""><hr><br></div>
+  <div ng-controller="PortfolioController as portCtrl" class="stackable ui grid">
+    <!-- Project Card -->
+    <div ng-repeat="project in portCtrl.projectList" class="ui centered stackable grid">
+      <!-- Image -->
+      <div class="column five wide">
+        <img src="/images/portfolio/{{ project.image }}-thumb.png" alt="p01" class="p-img ui fluid image centered">
+      </div>
+      <!-- Left Column -->
+      <div class="column six wide">
+        <h3 id="{{ project.image }}" class="p-name">{{ project.name }}</h3>
+        <p class="p-role">{{ project.role }}</p>
+        <ul ng-repeat="detail in project.details">
+          <li>{{ detail.text }}</li>
+        </ul>
+      </div>
+      <!-- Right Column -->
+      <div class="column five wide">
+        <ul class="l-p-col">
+          <span class="glyphs"><i ng-repeat="glyph in project.glyphs" class="devicon-{{ glyph.icon }}-plain" title="{{ glyph.icon }}"></i></span>
+          <p class="p-skill"><span ng-repeat="tech in project.tech">{{ tech.skill }} | </span></p>
+          <span ng-repeat="button in project.buttons"  class="p-button">
+            <a class="ui mobile {{ button.color }} inverted {{ button.status }} button" ng-href="{{ button.link }}" target="_blank"><i class="{{ button.color }} {{ button.icon }} icon" aria-hidden="true"></i>{{ button.name }}</a>
+          </span>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class=""><br><hr><br></div>

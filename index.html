@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="Hildegard">
+  <head>
+    <title>Adam Kaspar | Personal Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- jQuery & Angular CDNs -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.min.js"></script>
+    <!-- External Fonts, DevIcons, & Semantic UI CDNs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.0/dist/semantic.min.js"></script>
+    <!-- Local CSS & JavaScript -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <script type="text/javascript" src="/scripts/app.js"></script>
+    <!-- Angular Controllers -->
+    <script src="/scripts/controllers/HomeController.js"></script>
+    <script src="/scripts/controllers/PortfolioController.js"></script>
+  </head>
+
+  <body>
+    <!-- LOGO & NAVIGATION -->
+    <header>
+      <div class="ui text menu">
+        <!-- Site title -->
+        <div class="item logo">
+          <a href="/">
+            <h1>Adam Kaspar</h1>
+            <p>Software Engineer</p>
+          </a>
+        </div>
+        <!-- Desktop menu -->
+        <div id="menu" class="ui right menu">
+          <a class="item" href="/about">About</a>
+          <a class="item" href="/portfolio">Portfolio</a>
+          <a class="item" href="/social">Social</a>
+        </div>
+      </div>
+    </header>
+    <!-- Angular Viewport -->
+    <div ng-view></div>
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy 2020 Friendly Ghost Industries
+      </p>
+    </footer>
+  </body>
+</html>
