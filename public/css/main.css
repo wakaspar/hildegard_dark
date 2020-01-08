@@ -174,3 +174,11 @@ div.column.four.wide > a {
     font-size: 12rem;
   }
 } /* expand icons on phone screens */
+@media screen and (max-width: 500px) {
+  div.logo h1 {
+    font-size: 1.5rem;
+  }
+  div.logo p {
+    font-size: .75rem;
+  }
+} /* shrinks name and title on small screens */
