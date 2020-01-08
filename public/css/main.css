@@ -48,7 +48,7 @@ header {
   margin: 0em;
   font-size: 2.5em;
 }
-.logo a p {
+.logo p {
   font-size: 1.25em;
   margin-top: -.25em;
   margin-left: 2em;
@@ -58,6 +58,14 @@ footer {
   flex: 1;
   padding-bottom: 1.5em;
 }
+@media screen and (max-width: 767px) {
+  .logo h1  {
+    font-size: 1.5rem !important;
+  }
+  .logo p {
+    font-size: .75rem !important;
+  }
+} /* shrinks name and title on small screens */
 
 /** HOME **/
 /* Contact buttons */
@@ -174,11 +182,3 @@ div.column.four.wide > a {
     font-size: 12rem;
   }
 } /* expand icons on phone screens */
-@media screen and (max-width: 500px) {
-  div.logo h1 {
-    font-size: 1.5rem;
-  }
-  div.logo p {
-    font-size: .75rem;
-  }
-} /* shrinks name and title on small screens */
