@@ -17,7 +17,7 @@
   background-image: linear-gradient(-45deg, #2977b4 0%, #2C5594 25%, #3c8891 51%, #2C5594 77%, #2977b4 100%);
 }
 .instagram {
-  background-image: linear-gradient(45deg, #fbdb81 0%, #db4278 25%, #4963d3 51%, #db4278 77%, #fbdb81 100%);
+  background-image: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
 }
 .facebook {
   background-image: linear-gradient(45deg, #414861 0%, #1D2861 25%, #4267b2 51%, #1D2861 77%, #414861 100%);
