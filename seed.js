@@ -48,7 +48,7 @@ var projectList = [
   },
   {
     "name": "OurCade",
-    "buttons": [ {"name":"demo", "link":"", "icon":"external alternate", "color":"red", "status":"disabled"},
+    "buttons": [ {"name":"demo", "link":"", "icon":"external alternate", "color":"blue", "status":"disabled"},
             {"name":"repo", "link":"https://github.com/wakaspar/ourcade-react", "icon":"github", "color":"white"} ],
     "details": [ {"text":"ReactJS application that posts high scores from machines at favorite arcades"},
             {"text":"Interacts with the PinballMap.com API."},
