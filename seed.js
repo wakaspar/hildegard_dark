@@ -57,6 +57,7 @@ var projectList = [
     "role": "Full-stack engineer & designer",
     "tech": [ {"skill":"Node.js"},
             {"skill":"ReactJS"},
+            {"skill":"Heroku"},
             {"skill":"Bootsrap"},
             {"skill":"CSS3"},
             {"skill":"HTML5"} ],
