@@ -60,12 +60,15 @@ footer {
 }
 @media screen and (max-width: 767px) {
   .logo h1  {
-    font-size: 1.5rem !important;
+    font-size: 1.65rem !important;
   }
   .logo p {
-    font-size: .75rem !important;
+    font-size: .85rem !important;
   }
-} /* shrinks name and title on small screens */
+  h2 {
+    font-size: 1.35rem !important;
+  }
+} /* shrinks select copy on small screens */
 
 /** HOME **/
 /* Contact buttons */
