@@ -73,7 +73,7 @@ var projectList = [
     "name": "FreeGoldWatch",
     "buttons":[ {"name":"demo","link":"http://freegoldwatch.herokuapp.com/", "icon":"external alternate", "color":"blue"},
             {"name":"repo","link":"https://github.com/wakaspar/FreeGoldWatch", "icon":"github", "color":"white"} ],
-    "details": [ {"text":"DEMO site for a Bay Area screenprinting shop / pinball arcade, GA capstone project"},
+    "details": [ {"text":"Demo site for a Bay Area screenprinting shop / pinball arcade, GA capstone project"},
             {"text":"Functioning state machine controls the movement of print orders in database"},
             {"text":"Improves responsive design / UX of the business's current website"},
             {"text":"Interacts with the PinballMap & Instagram APIs"} ],
