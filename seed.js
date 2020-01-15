@@ -28,9 +28,9 @@ var projectList = [
   {
     "name": "Flywheel Coffee Roasters",
     "buttons": [ {"name":"in production","link":"https://flywheelcoffee.com/", "icon":"external alternate", "color":"blue"} ],
-    "details": [ {"text":"Shopify site for local coffee shop in the Haight district"},
-            {"text":"Bulit a new logo from custom art using Adobe PS & AI"},
-            {"text":"PHP & .liquid experience from digging through legacy code"} ],
+    "details": [ {"text":"Shopify site for a Bay Area coffee shop"},
+            {"text":"Bulit new logos from client-provided art using Adobe PS & AI"},
+            {"text":"Edited PHP & .liquid files to meet client specifications"} ],
     "role": "Consulting web developer & designer",
     "tech": [ {"skill":"Shopify CMS"},
             {"skill":".liquid"},
