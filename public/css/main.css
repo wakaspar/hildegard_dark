@@ -116,15 +116,15 @@ div.column.four.wide {
   font-size: 3.5em;
 }
 .stack-panel i:hover,
-.stack-panel i:active {
+.stack-panel i:active, {
   background-color: #fffafa;
   color: #0d0d0d;
-}
+} /* on icon hover */
 .stack-panel a:hover i,
 .stack-panel a:active i {
   background-color: #fffafa;
   color: #0d0d0d;
-}
+} /*  on anchor hover */
 
 /** PORTFOLIO **/
 /* Button styles */

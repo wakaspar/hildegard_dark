@@ -20,7 +20,7 @@
       <!-- Right Column -->
       <div class="column five wide">
         <ul class="l-p-col">
-          <span class="glyphs"><i ng-repeat="glyph in project.glyphs" class="devicon-{{ glyph.icon }}-plain" title="{{ glyph.icon }}"></i></span>
+          <span class="glyphs"><i ng-repeat="glyph in project.glyphs" class="devicon-{{ glyph.icon }}-plain glyph" title="{{ glyph.icon }}"></i></span>
           <p class="p-skill"><span ng-repeat="tech in project.tech">{{ tech.skill }} | </span></p>
           <span ng-repeat="button in project.buttons"  class="p-button">
             <a class="ui mobile {{ button.color }} inverted {{ button.status }} button" ng-href="{{ button.link }}" target="_blank"><i class="{{ button.color }} {{ button.icon }} icon" aria-hidden="true"></i>{{ button.name }}</a>
