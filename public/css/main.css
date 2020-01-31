@@ -1,6 +1,7 @@
 /** NOTE: MAIN.CSS - CONTAINS MOST CSS FOR HILDE 2.0 **/
 /* Site-wide CSS */
 * {
+  font-weight: 200;
   margin: 0em;
   color: #fffafa;
 }
@@ -15,6 +16,9 @@ img {
 }
 p {
   font-size: 1.1rem;
+}
+strong {
+  font-weight: bold;
 }
 .banner-img {
   height: 25vh;
