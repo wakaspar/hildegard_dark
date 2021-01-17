@@ -100,10 +100,14 @@ var projectList = [
 
 // DATABASE SEEDER / HELPER METHODS
 // Remove old projects, create new ones, & exit process
-db.Project.remove({}, function(err, projects){
+db.Project.deleteMany({}, function(err, projects){
+
+  if (err) { return console.log('SEED ERROR: ', err); }
+  console.log('projects removed');
+  
   db.Project.create(projectList, function(err, projects){
     if (err) { return console.log('ERROR', err); }
-    console.log("created", projects.length, "projects");
+    console.log('created', projects.length, 'projects');
     process.exit();
   });
 });
