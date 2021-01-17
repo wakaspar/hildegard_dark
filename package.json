@@ -8,9 +8,9 @@
   },
   "main": "server.js",
   "dependencies": {
-    "angular": "^1.7.9",
+    "angular": "^1.8.2",
     "express": "^4.17.1",
-    "mongoose": "^5.8.4"
+    "mongoose": "^5.11.12"
   },
   "devDependencies": {},
   "scripts": {
