@@ -11,9 +11,7 @@ const connection = mongoose.connection;
 // Database sanity check
 connection.on('error', error => console.error(error));
 connection.once('open', function() {
-    console.log('<<== MongoDB database connection established successfully ==>>');
+    console.log('<<== MongoDB database connection established successfully ==>>'); 
 });
-
-
 
 module.exports.Project = require("./project");

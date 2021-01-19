@@ -10,7 +10,7 @@ var ProjectSchema = new Schema({
   name: String,
   role: String,
   tech: Array
-});
+}, { collection: "Projects" });
 
 var Project = mongoose.model("Project", ProjectSchema);
 module.exports = Project;
